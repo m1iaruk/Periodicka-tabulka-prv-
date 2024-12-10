@@ -1,0 +1,588 @@
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background: linear-gradient(270deg, #ff7f50, #1e90ff, #d61d1dba);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+  .container {
+    text-align: center;
+  }
+
+  .legend {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+  }
+
+  .legend-item .family {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+
+  .metalloid { background-color: rgb(12, 122, 77); }
+  .alkali-metal { background-color:  #1d8cfc; } 
+  .alkaline-earth { background-color: burlywood; }
+  .transition-metal { background-color: gold; } 
+  .post-transition-metal { background-color: rgb(115, 156, 91);} 
+  .halogen { background-color: thistle; } 
+  .lanthanide { background-color: rgb(157, 19, 175); } 
+  .actinide { background-color:rgb(219, 147, 248); } 
+  .noble-gas { background-color: rgb(24, 141, 209); }
+
+  .table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .element {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+.number {
+   font-size: 15 px;
+   color: black;
+   font-family: 'Arial', sans-serif; 
+   text-transform: uppercase; 
+   justify-content: center;
+   align-items: center;
+}
+
+.table-title {
+    font-size: 30px; 
+    color: #ca7025; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+    margin: 0;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(18, 50px);
+    grid-gap: 5px;
+    margin: 20px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2f8adfe3;
+    border-radius: 5px;
+    background-color: #d48e65e8;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.element .symbol {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.element .name {
+    font-size: 10px;
+    color: #666;
+}
+
+.vodík {
+    background-color:#ff7f50;
+}
+
+.lithium{
+    background-color: #1e90ff;
+}
+
+.sodík{
+    background-color: #1e90ff;
+}
+
+.draslík{
+    background-color: #1e90ff;
+}
+
+.rubidium{
+    background-color: #1e90ff;
+}
+
+.cesium{
+    background-color: #1e90ff;
+}
+
+.francie{
+    background-color: #1e90ff;
+}
+
+
+.beryllium{
+    background-color:burlywood;
+}
+
+.hořčík{
+    background-color:burlywood;
+}
+
+.vápník{
+    background-color:burlywood;
+}
+
+.stroncium{
+    background-color:burlywood;
+}
+
+.baryum{
+    background-color:burlywood;
+}
+
+.rádium{
+    background-color:burlywood;
+}
+
+.scandium{
+    background-color:gold;
+}
+
+.yttrium{
+    background-color:gold;
+}
+
+.zirkonium{
+    background-color:gold;
+}
+
+.Titan{
+    background-color:gold;
+}
+
+.Hafnium{
+    background-color:gold;
+}
+
+.Rutherfordium{
+    background-color:gold;
+}
+
+.Lanthanum{
+    background-color:rgb(157, 19, 175);
+}
+
+.Actinium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Vanadium{
+    background-color:gold;
+}
+
+.Niob{
+    background-color:gold;
+}
+
+.Tantal{
+    background-color:gold;
+}
+
+.Dubniy{
+    background-color:gold;
+}
+
+.Cerium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Thorium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Chrom{
+    background-color:gold;
+}
+
+.Molybden{
+    background-color:gold;
+}
+
+.Wolfram{
+    background-color:gold;
+}
+
+.Seaborgium{
+    background-color:gold;
+}
+
+.Praseodym{
+    background-color:rgb(157, 19, 175);
+}
+
+.Protaktinium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Manga{
+    background-color:gold;
+}
+
+.Technecium{
+    background-color:gold;
+}
+
+.Rhenium{
+    background-color:gold;
+}
+
+.Borius{
+    background-color:gold;
+}
+
+.Neodym{
+    background-color:rgb(157, 19, 175);
+}
+
+.Uran{
+    background-color:rgb(219, 147, 248);
+}
+
+.Železo{
+    background-color:gold;
+}
+
+.Ruthenium{
+    background-color:gold;
+}
+
+.Osmium{
+    background-color:gold;
+}
+
+.Hassiy{
+    background-color:gold;
+}
+
+.Promethium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Neptunium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Kobalt{
+    background-color:gold;
+}
+
+.Rhodium{
+    background-color:gold;
+}
+
+.Iridium{
+    background-color:gold;
+}
+
+.Meitnerium{
+    background-color:gold;
+}
+
+.Samarium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Plutonium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Nikl{
+    background-color:gold;
+}
+
+.Palladium{
+    background-color:gold;
+}
+
+.Platina{
+    background-color:gold;
+}
+
+.Darmstadt{
+    background-color:gold;
+}
+
+.Europium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Americium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Měď{
+    background-color:gold;
+}
+
+.Stříbro{
+    background-color:gold;
+}
+
+.Zlato{
+    background-color:gold;
+}
+
+.Röntgen{
+    background-color:gold;
+}
+
+.Gadolinium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Curium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Zinek{
+    background-color:gold;
+}
+
+.Kadmium{
+    background-color:gold;
+}
+
+.Rtuť{
+    background-color:gold;
+}
+
+.Kopernicius{
+    background-color:gold;
+}
+
+.Terbium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Berkelium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Bor{
+    background-color:rgb(12, 122, 77);
+}
+
+.Hliník{
+    background-color:rgb(115, 156, 91);
+}
+
+.Gallium{
+    background-color:rgb(115, 156, 91);
+}
+
+.Indium{
+    background-color:rgb(115, 156, 91);
+}
+
+.Thallium{
+    background-color:rgb(115, 156, 91);
+}
+
+.Nihonium{
+    background-color:rgb(115, 156, 91);
+}
+
+.Dysprosium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Kalifornie{
+    background-color:rgb(219, 147, 248);
+}
+
+.Uhlík{
+    background-color:#ff7f50;
+}
+
+.Křemík{
+    background-color:rgb(12, 122, 77);
+}
+
+.Germanium{
+    background-color:rgb(12, 122, 77);
+}
+
+.Cín{
+    background-color:rgb(115, 156, 91);
+}
+
+.Vést{
+    background-color:rgb(115, 156, 91);
+}
+
+.Flerovium{
+    background-color:rgb(115, 156, 91);
+}
+
+.Holmium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Einsteinium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Dusík{
+    background-color:#ff7f50;
+}
+
+.Fosfor{
+    background-color:#ff7f50;
+}
+
+.Arsen{
+    background-color:rgb(12, 122, 77);
+}
+
+.Antimo{
+    background-color:rgb(12, 122, 77);
+}
+
+.Vizmut{
+    background-color:rgb(115, 156, 91);
+}
+
+.Pižmová{
+    background-color:rgb(115, 156, 91);
+}
+
+.Erbium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Fermium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Kyslík{
+    background-color:#ff7f50;
+}
+
+.Síra{
+    background-color:#ff7f50;
+}
+
+.Selen{
+    background-color:#ff7f50;
+}
+
+.Tellur{
+    background-color:rgb(12, 122, 77);
+}
+
+.Polonium{
+    background-color:rgb(12, 122, 77);
+}
+
+.Livermorium{
+    background-color:rgb(115, 156, 91);
+}
+
+.Thulium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Mendelevium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Fluor{
+    background-color: thistle;
+}
+
+.Chlór{
+    background-color: thistle;
+}
+
+.Bróm{
+    background-color: thistle;
+}
+
+.Jód{
+    background-color: thistle;
+}
+
+.Astatin{
+    background-color: thistle;
+}
+
+.Tennesseen{
+    background-color: thistle;
+}
+
+.Ytterbium{
+    background-color:rgb(157, 19, 175);
+}
+
+.Nobelium{
+    background-color:rgb(219, 147, 248);
+}
+
+.Hélium{
+    background-color: rgb(24, 141, 209);
+}
+
+.Neon{
+    background-color: rgb(24, 141, 209);
+}
+
+.Argon{
+    background-color: rgb(24, 141, 209);
+}
+
+.Krypton{
+    background-color: rgb(24, 141, 209);
+}
+
+.Xenon{
+    background-color: rgb(24, 141, 209);
+}
+
+.Radon{
+    background-color: rgb(24, 141, 209);
+}
+
+.Oganessona{
+    background-color: rgb(24, 141, 209);
+}
+
+.Lutecium{
+    background-color:gold;
+}
+
+.Lawrence{
+    background-color:gold;
+}
